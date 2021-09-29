@@ -1,0 +1,82 @@
+body{
+  background: rgb(19, 33, 218);
+  background: linear-gradient(90deg, rgb(73, 74, 85) 0%, rgb(44, 29, 253) 50%, rgb(22, 54, 122) 100%);
+  
+}
+.Navbar{
+  background-color:rgb(0,0,0,0.8);
+  margin: 0;
+  padding: 0;
+  height: 70px;
+}
+
+.Navbar h1{
+  margin: 0;
+  width: 50%;
+  float: left;
+  padding: 8px 40px;
+  color: #fff;
+}
+
+.Navbar button{
+  float: right;
+  padding: 8px 30px;
+  margin: 12px 70px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Navbar button:hover{
+  background-color:white;
+  color: #000000;
+ 
+  border-color: 5px solid black;
+}
+
+.card{
+  width: 22%;
+  height: auto;
+  margin: 40px;
+  text-align: center;
+  background-color:rgb(0,0,0,0.8);
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid rgb(0,0,0,0.8);
+  color: #fff;
+  float: left;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 10px 2px #2e2e2e;
+}
+
+.card img{
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+  width: 60%;
+  height: 60%;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 10px 2px #fff;
+  transform: scale(1.1);
+}
+
+.spinner{
+  margin-left: 35%;
+  margin-top: 10%;
+  width: 30%;
+  height: 30%;
+  cursor: wait;
+}
+.Navbar img{
+  width: 48px;
+  height: 48px;
+  margin-left: 10%;
+  margin-top: 8px;
+  border-radius: 70px;
+  float: left;
+}
